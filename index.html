@@ -6,31 +6,128 @@
     <title>Chris Goslin</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <title>Document</title>
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
 </head>
+<style>
 
-<nav class="navbar navbar-light" style= "background-color: grey">
-    <a class="navbar-brand" href="#">
-      <img src="Cglogo.png" width="50" height="50" class="d-inline-block align-top" alt=" CG Logo" ><p>Chris Goslin
-    </a>
-    <form class="form-inline my-1 my-lg-2" style= "background-color:black">
-        <input class="form-control m-sm-2" type="search" placeholder="Search" aria-label="Search" style= "color:red">
-        <button type="button" class="btn btn-lg btn-light" disabled>Search</button>
-      </form>
 
-  </nav>
 
-<body>
-    <img src= "brick-wall.jpg" width= "100%" height= "100%">
+.logo {
+    margin-right: 300px;
+    height: 80px;
+    width: 80px;
+    
+}
+
+.my-name {
+    font-style: oblique;
+    font-size: 40px;
+    font-family: Verdana,Tahoma;
+    color: rgb(1, 202, 11);
+    position: relative;
+    margin-right: 300px;
+    
+}
+.nav-item {
+    float:right;
+    position: relative;
+}
+
+
+
+.car-img-top {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+.card-text{
+
+    margin: 20px;
+    color: rgb(14, 172, 35);
+}
+
+
+h1 {
+    color: rgb(174, 189, 40);
+}
+
+
+
+.card-body{
+
+    background-color: black;
+    width: 50%;
+    height: 700px;
+    position: absolute;
+    margin-left: 25%;
     
 
-    <container id="main-body" style="background-color: red" height= "50px" width= "50%">
+}
 
+
+body {
+    margin: 20px;
+}
+
+
+
+
+
+</style>
+
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning"> 
+        <a class="my-name" href="#">
+            <img class= "logo" src="Cglogo.png" alt=" CG Logo" >
+            <p>Chris Goslin</p>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Portfolio Pages</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+  
+
+   
+
+<body background="brick-wall.jpg">
     
-
-
+    <container id= "main-bio">
+        <div class="card mt-4">
+          <div class="card-body">
+            <h1 class="card-title">Chris Goslin</h1>
+            <img class= "car-img-top" src= "Family-Photo.jpg" alt= "My Family">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nemo perspiciatis ipsa voluptas. Earum, sit! Autem totam ex, deserunt eos ea animi? Quisquam modi nobis consequuntur perferendis vitae temporibus sunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis id, cum, optio assumenda vitae dignissimos accusamus voluptatum impedit mollitia nesciunt omnis sapiente illo animi quae odio, facilis aliquid quis labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsam doloremque perspiciatis magni maxime voluptatibus quibusdam sunt. Eaque ducimus, magni fugiat quasi saepe commodi soluta, repellat fugit, quam minus dolore?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti rem error natus facere quasi consequuntur, amet odio dolore veniam et ducimus nam expedita delectus, odit cumque! Rerum aliquid enim doloremque.</p>
+          </div>
+        </div>
+      </div>      
 
     </container>
+
+    
+
+
+    
+
+  
+
+
+
+    
+
+
     
   
   
