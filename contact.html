@@ -1,186 +1,209 @@
 <!doctype html>
-<html lang="en"></html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
+<html lang="en">
 
-    <title>Chris Goslin</title>
+</html>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/sticky-footer-navbar/">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Chris Goslin</title>
 
-    <!-- Custom styles for this template -->
-    <link href="sticky-footer-navbar.css" rel="stylesheet">
-  </head>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/sticky-footer-navbar/">
 
-  <style>
+  <!-- Bootstrap core CSS -->
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-    header {
-        background-color:rgb(167, 161, 161);
-        padding: 10px;
-        position: relative;
-        width: 95%;
-        height: 100px;
-        margin:20px;
-    }
+  <!-- Custom styles for this template -->
+  <link href="sticky-footer-navbar.css" rel="stylesheet">
+</head>
 
-    .logo {
-        margin-right: 300px;
-        margin-top: -20px;
-        height: 100px;
-        width: 100px;
-        float: left;          
-    }
+<style>
+  header {
+    background-color: rgb(167, 161, 161);
+    padding: 10px;
+    position: relative;
+    width: 95%;
+    height: 100px;
+    margin: 20px;
+  }
 
-    h1 {
-        font-style: oblique;
-        font-size: 40px;
-        font-family: Verdana,Tahoma;
-        color:rgb(90, 106, 194);
-        float: left;
-        margin-right: 300px;
-        margin-top: 10px;        
-    }
+  .logo {
+    margin-right: 300px;
+    height: 100px;
+    width: 100px;
+    float: left;
+  }
 
-    .nav-link {
-        color: rgb(90, 106, 194);
-        font-size: 15px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;      
-    }
+  h1 {
+    font-style: oblique;
+    font-size: 40px;
+    font-family: Verdana, Tahoma;
+    color: rgb(90, 106, 194);
+    float: left;
+    margin-right: 300px;
+    margin-top: 10px;
+  }
 
-    .card-body{
-      background-color: rgb(167, 161, 161);
-      float: left;
-      width: 50%;
-      height: 450px;
-      /* position: relative; */
-      margin-left: 25%;
-      /* padding: 20px; */
-    }
+  .nav-link {
+    color: rgb(90, 106, 194);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 
-    h2 {
-        font-size:40px;
-        color: rgb(101, 132, 179);
-        margin: 10px;
-    }
+  .nav-btn {
+    float: left;
+  }
 
-    .form-control {
-        margin-top: 10px;
-        margin-left: 30px;
-    }
+  .card-body {
+    background-color: rgb(167, 161, 161);
+    float: left;
+    width: 50%;
+    height: 450px;
+    margin-left: 25%;
+  }
 
-    .form-control-1 {
-        /* float: middle; */
-        margin-top: 10px;
-        height: 100px;
-        width: 300px;
-        margin-left: 30px;
-    }
+  h2 {
+    font-size: 40px;
+    color: rgb(101, 132, 179);
+    margin: 10px;
+  }
 
-    .form-label {
-        margin: 30px;
-    }
+  .nav-social {
+    float:right;
+    margin: 20px;
+  }
 
-    #input-message.form-control {
-        text-align: center;
-    }
+  .form-control {
+    margin-top: 10px;
+    margin-left: 30px;
+  }
 
-    .btn {
-        margin-left: 275px;
-    }
+  .form-control-1 {
+    margin-top: 10px;
+    height: 100px;
+    width: 300px;
+    margin-left: 30px;
+  }
 
+  .form-label {
+    margin: 30px;
+  }
 
-    footer {
-        background-color: rgb(90, 106, 194);
-        text-align: center;
-        margin-top: 500px;    
-    }
+  #input-message.form-control {
+    text-align: center;
+  }
 
-  </style>
+  .btn {
+    margin-left: 275px;
+  }
 
 
-
-  <body background= "Assets/brick-wall.jpg">
-
-    <header>
-      
-      <nav class="navbar">
-
-             <img class= "logo" src="Assets/Cglogo.png" alt=" CG Logo" ></a>
-
-             <h1>Chris Goslin</h1>
-
-            <ol class="nav-item active">
-              <a class="nav-link" href="My-Portfolio-Feb-1/index.html">Home</a>
-            </ol>
-            <ol class="nav-item active">
-              <a class="nav-link" href="#Contacts">Contact</a>
-            </ol>      
-            <ol class="nav-item active">
-              <a class="nav-link" href="#Portfolio-pages">Portfolio Pages</a>
-            </ol>
-
-      </nav>
-
-    </header>
-
-   
-
-   
-        <div class="card-body">
-          <h2 class="card-title">Contact</h2>
-                
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <br>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-
-            <br>
-            <br>
-
-            <div class="mb-3">
-              <label for="InputPassword1" class="form-label">Password</label>
-              <br>
-              <input type="password" class="form-control" id="InputPassword1"></input>
-            </div>
-
-            <br>
-            <br>
-
-            <div class="mb-3">
-                <label for="InputMessage" class="form-label">Message</label>
-                <br>
-                <input type="message" class="form-control-1" id="InputMessage"></input>
-            </div>
-
-              <br>
-              <br>
-            <section class= "btn">
-                <button type="submit" class="btn btn-primary">Submit
-                </button>
-            </section>
-        </div>
-      
-        <footer class="footer">
-            <div class="container">
-              <span class="text-muted">Thanks for stopping by</span>
-            </div>
-          </footer>
-          
+  footer {
+    background-color: rgb(90, 106, 194);
+    text-align: center;
+    margin-top: 500px;
+  }
+</style>
 
 
-  
+
+<body background="Assets/brick-wall.jpg">
+
+  <header>
+
+    <nav class="navbar">
+
+      <img class="logo" src="Assets/Cglogo.png" alt=" CG Logo"></img>
+      <h1>Chris Goslin</h1>
+      <section class="nav-btn">
+
+        <ol class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </ol>
+        <ol class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </ol>
+        <ol class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio Pages</a>
+        </ol>
+      </section>
+
+    </nav>
+
+
+  </header>
+
+
+
+
+  <div class="card-body">
+    <h2 class="card-title">Contact</h2>
+    <section class="nav-social">
+ <!--link to my godaddy page for my own projects, (when I have time!)-->
+      <ol class="nav-item active">
+        <a class="nav-link" href="https://www.chrisgoslin.com">Chris Goslin</a>
+      </ol>
+      <ol class="nav-item active">
+        <a class="nav-link" href="https://www.linkedin.com/in/chris-goslin-5644b274/">Linkdin</a>
+      </ol>
+     
+    </section>
 
    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-  </body>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <br>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+
+    <br>
+    <br>
+
+    <div class="mb-3">
+      <label for="InputPassword1" class="form-label">Password</label>
+      <br>
+      <input type="password" class="form-control" id="InputPassword1"></input>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="mb-3">
+      <label for="InputMessage" class="form-label">Message</label>
+      <br>
+      <input type="message" class="form-control-1" id="InputMessage"></input>
+    </div>
+
+    <br>
+    <br>
+
+    <section class="btn">
+      <button type="submit" class="btn btn-primary" href="">Submit
+      </button>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">Thanks for stopping by</span>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="../../assets/js/vendor/popper.min.js"></script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>
