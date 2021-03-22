@@ -62,13 +62,6 @@ header {
     margin-left: 275px;
   }
 
-/* h1 {
-    font-style: oblique;
-    font-size: 40px;
-    font-family: Verdana, Tahoma;
-    color: rgb(90, 106, 194);
-} */
-
 .image {
     height: 1200px;
 }
@@ -95,6 +88,11 @@ header {
   width: 50%;
   height: 700px;
   margin-left: 25%;
+}
+
+.projectOne {
+  width:300px;
+  height: 300px;
 }
 
 h2 {
