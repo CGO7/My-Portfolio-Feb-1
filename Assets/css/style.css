@@ -1,0 +1,123 @@
+header {
+    background-color: rgb(167, 161, 161);
+    padding: 10px;
+
+    width: 95%;
+    height: 100px;
+    margin: 20px;
+  }
+
+
+  .logo {
+    margin-right: 300px;
+    height: 100px;
+    width: 100px;
+    float: left;
+  }
+
+  h1 {
+    font-style: oblique;
+    font-size: 40px;
+    font-family: Verdana, Tahoma;
+    color: rgb(90, 106, 194);
+    float: left;
+   } 
+
+  .nav-link {
+    color: rgb(90, 106, 194);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .nav-btn {
+    float: right;
+  }
+
+  .nav-social {
+    float:right;
+    margin: 20px;
+  }
+
+  .form-control {
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  .form-control-1 {
+    margin-top: 10px;
+    height: 100px;
+    width: 300px;
+    margin-left: 30px;
+  }
+
+  .form-label {
+    margin: 30px;
+  }
+
+  #input-message.form-control {
+    text-align: center;
+  }
+
+  .btn {
+    margin-left: 275px;
+  }
+
+/* h1 {
+    font-style: oblique;
+    font-size: 40px;
+    font-family: Verdana, Tahoma;
+    color: rgb(90, 106, 194);
+} */
+
+.image {
+    height: 1200px;
+}
+
+
+#row {
+    background-color: black;
+    margin-left: 200px;
+    margin-top: 30px;
+    color: rgb(101, 132, 179);
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+
+.col {
+    Height: 300px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.card-body {
+  background-color: rgb(167, 161, 161);
+  width: 50%;
+  height: 700px;
+  margin-left: 25%;
+}
+
+h2 {
+  font-size: 40px;
+  color: rgb(101, 132, 179);
+  margin: 10px;
+}
+
+.car-img-top {
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+
+.card-text {
+  margin: 20px;
+  color: rgb(41, 96, 179);
+  font-size: large;
+}
+
+footer {
+  background-color: rgb(90, 106, 194);
+  position: sticky;
+  text-align: center;
+}
