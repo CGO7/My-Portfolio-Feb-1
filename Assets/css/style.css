@@ -1,7 +1,6 @@
 header {
     background-color: rgb(167, 161, 161);
     padding: 10px;
-
     width: 95%;
     height: 100px;
     margin: 20px;
@@ -38,30 +37,6 @@ header {
     margin: 20px;
   }
 
-  .form-control {
-    margin-top: 10px;
-    margin-left: 30px;
-  }
-
-  .form-control-1 {
-    margin-top: 10px;
-    height: 100px;
-    width: 300px;
-    margin-left: 30px;
-  }
-
-  .form-label {
-    margin: 30px;
-  }
-
-  #input-message.form-control {
-    text-align: center;
-  }
-
-  .btn {
-    margin-left: 275px;
-  }
-
 .image {
     height: 1200px;
 }
@@ -69,19 +44,26 @@ header {
 
 #row {
     background-color: black;
-    margin-left: 200px;
+    height: 300px;
+    width:300px;
+    margin-left: 300px;
     margin-top: 30px;
-    color: rgb(101, 132, 179);
     text-align: center;
-    padding: 20px;
-    float: left;
+    /* padding: 20px; */
+    float:left;
+    position: relative;
+
 }
 
-.col {
-    Height: 300px;
-    width: 300px;
-    margin-top: 20px;
+#links {
+  color:rgb(97, 97, 238);
 }
+
+/* .col { */
+    /* Height: 300px; */
+    /* width: 300px; */
+    
+/* } */
 
 .card-body {
   background-color: rgb(167, 161, 161);
@@ -90,14 +72,36 @@ header {
   margin-left: 25%;
 }
 
-.projectOne {
-  width:300px;
-  height: 300px;
+ .mb-3 { 
+   height: 200px;
+   width: 200px; 
+ }
+
+ h3 {
+   color: rgb(97, 97, 238);
+   }
+
+#projectOne {
+  width: 180px;
+  height:180px;
+}
+
+#emailLink {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#phoneNumber {
+  margin-left: 50px;
+}
+
+h3 {
+  margin-left: 30px;
 }
 
 h2 {
   font-size: 40px;
-  color: rgb(101, 132, 179);
+  color: rgb(13, 44, 90);
   margin: 10px;
 }
 
