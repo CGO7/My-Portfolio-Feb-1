@@ -70,12 +70,11 @@ header {
   width: 50%;
   height: 700px;
   margin-left: 25%;
+  text-align: center;
 }
 
  .mb-3 { 
-    margin-left: 250px;
-    margin-top: 75px; 
-  
+    margin-top: 50px;
  }
 
  h3 {
@@ -91,7 +90,8 @@ header {
 #emailLink {
   margin-left: 50px;
   margin-top: 50px;
-  color:rgb(97, 97, 238);
+  color: rgb(97, 97, 238);
+  
 }
 
 #phoneNumber {
