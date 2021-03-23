@@ -73,12 +73,14 @@ header {
 }
 
  .mb-3 { 
-   height: 200px;
-   width: 200px; 
+    margin-left: 250px;
+    margin-top: 75px; 
+  
  }
 
  h3 {
    color: rgb(97, 97, 238);
+   margin-left: 30px;
    }
 
 #projectOne {
@@ -89,14 +91,11 @@ header {
 #emailLink {
   margin-left: 50px;
   margin-top: 50px;
+  color:rgb(97, 97, 238);
 }
 
 #phoneNumber {
   margin-left: 50px;
-}
-
-h3 {
-  margin-left: 30px;
 }
 
 h2 {
