@@ -1,0 +1,22 @@
+{
+  "name": "my-portfolio-feb-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CGO7/My-Portfolio-Feb-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CGO7/My-Portfolio-Feb-1/issues"
+  },
+  "homepage": "https://github.com/CGO7/My-Portfolio-Feb-1#readme",
+  "dependencies": {
+    "nodemailer": "^6.6.0"
+  }
+}
